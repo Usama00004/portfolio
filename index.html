@@ -1556,7 +1556,7 @@
                                         </div><!-- /contact-icon -->
                                         <div class="contact-text d-inline-block">
                                             <h4 class="mb-2">Location</h4>
-                                            <p class="text-color mb-0">Frankfurt, Germany</p>
+                                            <p class="text-color mb-0">Germany</p>
                                         </div>
                                     </li><!-- /contact-location -->
                                     <li
@@ -1594,7 +1594,7 @@
                         <div class="col-xl-6 col-lg-7 col-md-12  col-sm-12 col-12">
                             <div class="contact-wrapper">
                                 <div class="contact-form mt-45">
-                                    <form action="php/mail.php" method="POST" id="contact-form">
+                                    <form id="contact-form">
                                         <div class="contact-info pt-20">
                                             <div class="row">
                                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 pr6 mb-12"
@@ -1699,17 +1699,6 @@
                                                 cursor: pointer;
                                             }
                                         </style>
-                                        
-                                        <!-- JavaScript to Show and Hide Popup -->
-                                        <script>
-                                            function showContactPopup() {
-                                                document.getElementById("popupOverlay").style.display = "flex";
-                                            }
-                                        
-                                            function closeContactPopup() {
-                                                document.getElementById("popupOverlay").style.display = "none";
-                                            }
-                                        </script>
                                             
                                         </div>
                                     </form>
@@ -1759,6 +1748,15 @@
     <script src="js/vanilla-tilt.min.js"></script>
     <script src="js/jquery.meanmenu.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        function showContactPopup() {
+            document.getElementById("popupOverlay").style.display = "flex";
+        }
+    
+        function closeContactPopup() {
+            document.getElementById("popupOverlay").style.display = "none";
+        }
+    </script>
 
 
 </body>

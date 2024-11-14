@@ -2,12 +2,12 @@
 
 This is my personal portfolio website showcasing my skills, projects, and experience in data analysis, software development, and other technical areas. Built with HTML, CSS, and JavaScript, this site provides a responsive, interactive experience to visitors interested in learning more about my professional work.
 
----
+
+# Preview
 
 ![Portfolio Screenshot](images/Portfolio_image.png) <!-- Add the actual image URL here -->
 
 
----
 ## Features
 
 - **Home**: Introduction to my background and a summary of my skills.
@@ -15,7 +15,7 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 - **About Me**: A section describing my professional journey, educational background, and expertise.
 - **Contact**: An easy-to-use contact form for visitors to reach out.
 
----
+
 
 ## Technologies Used
 
@@ -23,13 +23,13 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 - **CSS**: Styling, responsive design, and animations.
 - **JavaScript**: Interactive elements and dynamic content.
 
----
+
 
 ## Usage
 
 To view the portfolio, simply open `index.html` in a web browser or host it on a platform like GitHub Pages to make it accessible online.
 
----
+
 
 ## Project Structure
 
@@ -38,7 +38,6 @@ To view the portfolio, simply open `index.html` in a web browser or host it on a
 - `script.js`: JavaScript file for interactivity and dynamic content.
 - `images/`: Directory for images used on the site.
 
----
 
 
 ## Future Enhancements
@@ -47,7 +46,6 @@ To view the portfolio, simply open `index.html` in a web browser or host it on a
 - More detailed descriptions and case studies for each project.
 - Improvements to design for better user experience.
 
----
 
 ## Contact
 

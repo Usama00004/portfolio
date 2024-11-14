@@ -39,14 +39,6 @@ To view the portfolio, simply open `index.html` in a web browser or host it on a
 - `images/`: Directory for images used on the site.
 
 
-
-## Future Enhancements
-
-- Additional project sections for recently completed work.
-- More detailed descriptions and case studies for each project.
-- Improvements to design for better user experience.
-
-
 ## Contact
 
 For more information, feel free to reach out via the contact form on the website, or connect with me on LinkedIn.

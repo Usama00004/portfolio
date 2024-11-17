@@ -1217,3 +1217,104 @@ span#main {
   background: var(--main-color);
 }
 /* .side-mobile-menu end*/
+
+
+
+   /* Skill Card Wrapper */
+   .skills-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adds space between cards */
+    max-width: 1200px; /* Keeps the layout centered and contained */
+    margin: 0 auto;
+}
+
+/* Skill Card Styling */
+.skill-card {
+    border: 1px solid #d9e1e2;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ffffff;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: calc(20% - 20px); /* Makes 5 cards fit in one row, with spacing */
+    min-width: 150px; /* Prevents cards from becoming too small */
+}
+
+.skill-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon Styling */
+.skill-card .icon img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .skill-card {
+        width: calc(33.33% - 20px); /* 3 cards per row on tablets */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .skill-card {
+        width: calc(50% - 20px); /* 2 cards per row on small screens */
+    }
+}
+
+
+
+/* Styles for Languages Section */
+#languages {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+
+.skill-card {
+  border: 1px solid #d9e1e2;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #ffffff;
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: calc(20% - 20px);
+  min-width: 150px;
+  margin: 10px;
+}
+
+.skill-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.skill-card .icon img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
+#languages .title h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+  .skill-card {
+      width: calc(33.33% - 20px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skill-card {
+      width: calc(50% - 20px);
+  }
+}

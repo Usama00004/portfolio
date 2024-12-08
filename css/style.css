@@ -842,6 +842,10 @@ span#main {
   font-size: 18px;
 }
 
+
+
+
+
 /* 9. skill area
 -------------------------------------------------------------- */
 .single-skill .knob {
@@ -1305,6 +1309,25 @@ span#main {
   color: #333;
   margin-bottom: 20px;
 }
+
+.btn-small {
+  padding: 2px 6px;         /* Smaller padding for a compact button */
+  font-size: 0.75em;        /* Reduce font size */
+  line-height: 1;           /* Adjust line height */
+  border-radius: 3px;       /* Optional: smaller border radius */
+  background-color: #80db66; /* Button background color */
+  color: #fff;              /* White text for contrast */
+  text-decoration: none;    /* Remove underline */
+  border: none;             /* Remove default border */
+  display: inline-block;    /* Ensures proper display */
+  text-align: center;       /* Center the text */
+}
+
+.btn-small:hover {
+  background-color: #6cc652; /* Slightly darker shade for hover effect */
+}
+
+
 
 /* Responsive Adjustments */
 @media screen and (max-width: 768px) {

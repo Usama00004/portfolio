@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Certifications</title>
+    <title>My Projects</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
@@ -26,7 +26,7 @@
             font-size: 2.5rem;
             color: #333;
         }
-        .certification {
+        .project {
             display: flex;
             flex-wrap: wrap;
             background: #fff;
@@ -38,27 +38,29 @@
             align-items: center; /* Centers items vertically */
         }
 
-        .certification-logo {
+        .project-logo {
             flex: 1;
             text-align: center;
         }
-        .certification-logo img {
-            max-width: 100px;
+        .project-logo img {
+            max-width: 300px;  /* Set image width to 300px */
+            max-height: 300px; /* Set image height to 300px */
+            object-fit: cover; /* Ensures the image doesn't stretch and maintains aspect ratio */
             border-radius: 6px;
         }
-        .certification-details {
+        .project-details {
             flex: 3;
             padding-left: 20px;
         }
-        .certification-details h3 {
+        .project-details h3 {
             font-size: 1.5rem;
             color: #555;
         }
-        .certification-details p {
+        .project-details p {
             font-size: 1rem;
             color: #666;
         }
-        .certification-details .btn {
+        .project-details .btn {
             display: inline-block;
             margin-top: 10px;
             padding: 10px 15px;
@@ -69,7 +71,7 @@
             border-radius: 6px;
             transition: background-color 0.3s ease;
         }
-        .certification-details .btn:hover {
+        .project-details .btn:hover {
             background-color: #6ec455;
         }
     </style>
@@ -79,63 +81,62 @@
         <div class="title">
             <h1>My Projects</h1>
         </div>
-        <div class="certification">
-            <div class="certification-logo">
-                <img src="images/award/award-logo5.png" alt="Microsoft Power BI">
+        <div class="project">
+            <div class="project-logo">
+                <img src="images/projects/project1.png" alt="Project 1">
             </div>
-                <div class="certification-details">
-                    <h3>German Language B2.1</h3>
-                    <p>German B2.1 Certified</p>
-                    <a href="files/B2_1.pdf" target="_blank" class="btn">View Certificate</a>
-                </div>
-            </div>
-
-        <!-- Microsoft Power BI -->
-        <div class="certification">
-            <div class="certification-logo">
-                <img src="images/award/award-logo1.png" alt="Microsoft Power BI">
-            </div>
-            <div class="certification-details">
-                <h3>Microsoft Power BI</h3>
-                <p>Certified in Microsoft Power BI, showcasing expertise in data visualization.</p>
-                <a href="files/Power_BI.pdf" target="_blank" class="btn">View Certificate</a>
+            <div class="project-details">
+                <h3>Project Name 1</h3>
+                <p>A brief description of Project 1.</p>
+                <a href="files/project1_details.pdf" target="_blank" class="btn">View Details</a>
             </div>
         </div>
 
-
-        <div class="certification">
-        <div class="certification-logo">
-            <img src="images/award/award-logo4.png" alt="Microsoft Power BI">
-        </div>
-            <div class="certification-details">
-                <h3>German Language B1</h3>
-                <p>German B1 Certified</p>
-                <a href="files/B1_Deutsch.pdf" target="_blank" class="btn">View Certificate</a>
+        <!-- Project 2 -->
+        <div class="project">
+            <div class="project-logo">
+                <img src="images/projects/project2.png" alt="Project 2">
             </div>
-        </div>
-    
-
-        <!-- Google Data Analytics -->
-        <div class="certification">
-            <div class="certification-logo">
-                <img src="images/award/award-logo2.png" alt="Google Data Analytics">
-            </div>
-            <div class="certification-details">
-                <h3>Google Data Analytics</h3>
-                <p>Certified in Google Data Analytics, skilled in data-driven insights.</p>
-                <a href="files/Google_Data_Analystics.pdf" target="_blank" class="btn">View Certificate</a>
+            <div class="project-details">
+                <h3>Project Name 2</h3>
+                <p>A brief description of Project 2.</p>
+                <a href="files/project2_details.pdf" target="_blank" class="btn">View Details</a>
             </div>
         </div>
 
-        <!-- Microsoft Azure -->
-        <div class="certification">
-            <div class="certification-logo">
-                <img src="images/award/award-logo3.png" alt="Microsoft Azure">
+        <!-- Project 3 -->
+        <div class="project">
+            <div class="project-logo">
+                <img src="images/projects/project3.png" alt="Project 3">
             </div>
-            <div class="certification-details">
-                <h3>Microsoft Azure</h3>
-                <p>Certified in Azure Fundamentals, proficient in cloud concepts and services.</p>
-                <a href="files/Microsoft_AZ-900.pdf" target="_blank" class="btn">View Certificate</a>
+            <div class="project-details">
+                <h3>Project Name 3</h3>
+                <p>A brief description of Project 3.</p>
+                <a href="files/project3_details.pdf" target="_blank" class="btn">View Details</a>
+            </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project">
+            <div class="project-logo">
+                <img src="images/projects/project4.png" alt="Project 4">
+            </div>
+            <div class="project-details">
+                <h3>Project Name 4</h3>
+                <p>A brief description of Project 4.</p>
+                <a href="files/project4_details.pdf" target="_blank" class="btn">View Details</a>
+            </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project">
+            <div class="project-logo">
+                <img src="images/projects/project5.png" alt="Project 5">
+            </div>
+            <div class="project-details">
+                <h3>Project Name 5</h3>
+                <p>A brief description of Project 5.</p>
+                <a href="files/project5_details.pdf" target="_blank" class="btn">View Details</a>
             </div>
         </div>
 

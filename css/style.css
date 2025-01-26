@@ -1309,3 +1309,27 @@ span#main {
       width: calc(50% - 20px);
   }
 }
+
+/* New button for view all projects */
+.custom-view-all-btn_new {
+  display: inline-block;
+  background-color: #80db66; /* Green background */
+  color: #fff; /* White text */
+  text-transform: uppercase; /* Make text uppercase */
+  font-size: 0.9rem; /* Slightly smaller font */
+  font-weight: bold; /* Bold text */
+  padding: 10px 20px; /* Add padding for size */
+  border: none; /* Remove border */
+  border-radius: 6px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  transition: background-color 0.3s ease, transform 0.2s ease, font-size 0.2s ease;
+}
+
+.custom-view-all-btn_new:hover {
+  background-color: #6ec455; /* Darker green on hover */
+  color: #fff; /* Ensure text remains white */
+  font-size: 1rem; /* Slightly larger font */
+  transform: scale(1.05); /* Add slight zoom effect */
+}
+

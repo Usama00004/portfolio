@@ -8,7 +8,7 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 ![Portfolio Screenshot](images/Portfolio_image.png)
 
 
-## Features
+## Features 
 
 - **Home**: Introduction to my background and a summary of my skills.
 - **Projects**: Detailed showcase of selected projects, including descriptions and links to repositories or live demos.

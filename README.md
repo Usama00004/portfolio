@@ -2,7 +2,7 @@
 
 This is my personal portfolio website showcasing my skills, projects, and experience in data analysis, software development, and other technical areas. Built with HTML, CSS, and JavaScript, this site provides a responsive, interactive experience to visitors interested in learning more about my professional work.
 
-
+ 
 # Preview 
 
 ![Portfolio Screenshot](images/Portfolio_image.png)

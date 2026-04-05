@@ -10,7 +10,7 @@ This is my personal portfolio website showcasing my skills, projects, and experi
   
 ## Features 
 
-- **Home**: Introduction to my background and a summary of my skills.
+- **Home**: Introduction to my background and a summary of my skills. 
 - **Projects**: Detailed showcase of selected projects, including descriptions and links to repositories or live demos.
 - **About Me**: A section describing my professional journey, educational background, and expertise.
 - **Contact**: An easy-to-use contact form for visitors to reach out.

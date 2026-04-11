@@ -5,7 +5,7 @@ This is my personal portfolio website showcasing my skills, projects, and experi
   
 # Preview 
 
-![Portfolio Screenshot](images/Portfolio_image.png) 
+![Portfolio Screenshot](images/Portfolio_image.png)  
   
   
 ## Features 
